@@ -26,3 +26,14 @@ export const editCargoStatus = async (payload) => {
 		throw error;
 	}
 };
+
+export const createCargo = async (payload) => {
+	try {
+		const { data } = await axios.post(`${url}/cargo`, payload);
+		console.log("Cargo data: ", data);
+
+		return data;
+	} catch (error) {
+		throw error;
+	}
+};

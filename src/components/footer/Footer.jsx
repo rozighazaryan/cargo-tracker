@@ -1,11 +1,7 @@
-import { Badge } from "react-bootstrap";
-
 const Footer = () => {
 	return (
 		<footer>
-			<h5>
-				by <Badge bg="secondary" className="mr-4">Rozi</Badge>
-			</h5>
+			<small>&copy; {new Date().getFullYear()} created by Rozi</small>
 		</footer>
 	);
 };

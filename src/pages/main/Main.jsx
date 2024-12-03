@@ -6,8 +6,8 @@ const Main = () => {
 		<div className="d-flex flex-column align-items-center justify-content-between vh-100">
 			<div
 				className="d-flex flex-column align-items-center w-100"
-				style={{ padding: "100px 20px" }}>
-				<h1 className="mb-4">Cargo List</h1>
+				style={{ padding: "70px 20px" }}>
+				<h1 className="mb-4">Список грузов</h1>
 				<CargoList />
 			</div>
 			<Footer />
